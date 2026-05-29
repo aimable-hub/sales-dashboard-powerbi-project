@@ -1,0 +1,7 @@
+Total Revenue = SUM(Orders[TotalPrice])
+
+Total Orders = COUNT(Orders[OrderID])
+
+Total Quantity = SUM(Orders[Quantity])
+
+Average Order Value = AVERAGE(Orders[TotalPrice])
